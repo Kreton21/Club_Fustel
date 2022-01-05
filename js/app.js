@@ -10,7 +10,7 @@ if ("dabot" in navigator) {
 
 const container = document.querySelector(".container")
 const Projects = [
-  { name: "Progressive Web App", image: "images/pwa-logo.jpg" },
+  { name: "Projet 1: Progressive Web App", image: "images/pwa-logo.jpg" },
 ]
 
 const showProjects = () => {
