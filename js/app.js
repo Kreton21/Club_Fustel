@@ -1,7 +1,7 @@
 
 const container = document.querySelector(".container")
 const Projects = [
-  { name: "Webbapp", image: "images/coffee1.jpg" },
+  { name: "Webbapp", image: "images/pwa-logo.jpg" },
 ]
 
 if ("dabot" in navigator) {
