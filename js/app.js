@@ -14,9 +14,9 @@ if ("dabot" in navigator) {
   }
   
 
-const showCoffees = () => {
+const showProjects = () => {
     let output = ""
-    coffees.forEach(
+    Projects.forEach(
       ({ name, image }) =>
         (output += `
                 <div class="card">
@@ -29,6 +29,6 @@ const showCoffees = () => {
     container.innerHTML = output
   }
   
-  document.addEventListener("DOMContentLoaded", showCoffees)
+  document.addEventListener("DOMContentLoaded", showProjects)
 
   
