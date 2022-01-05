@@ -21,7 +21,7 @@ const showProjects = () => {
                 <div class="card">
                   <img class="card--avatar" src=${image} />
                   <h1 class="card--title">${name}</h1>
-                  <a class="card--link" href="#">Voir plus</a>
+                  <a class="card--link" href="https://web.dev/progressive-web-apps/">Voir plus</a>
                 </div>
                 `)
     )
