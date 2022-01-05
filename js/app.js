@@ -1,9 +1,4 @@
-
-const container = document.querySelector(".container")
-const Projects = [
-  { name: "Webbapp", image: "images/pwa-logo.jpg" },
-]
-
+//Da bot
 if ("dabot" in navigator) {
     window.addEventListener("load", function() {
       navigator.serviceWorker
@@ -12,7 +7,11 @@ if ("dabot" in navigator) {
         .catch(err => console.log("dabot not working sire", err))
     })
   }
-  
+
+const container = document.querySelector(".container")
+const Projects = [
+  { name: "Webbapp", image: "images/pwa-logo.jpg" },
+]
 
 const showProjects = () => {
     let output = ""
@@ -28,7 +27,6 @@ const showProjects = () => {
     )
     container.innerHTML = output
   }
-  
-  document.addEventListener("DOMContentLoaded", showProjects)
+document.addEventListener("DOMContentLoaded", showProjects)
 
   
