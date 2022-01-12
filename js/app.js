@@ -13,6 +13,8 @@ const Projects = [
   { name: "Projet 1: Progressive Web App", image: "images/pwa-logo.jpg" },
 ]
 
+
+/* 
 const showProjects = () => {
     let output = ""
     Projects.forEach(
@@ -27,6 +29,6 @@ const showProjects = () => {
     )
     container.innerHTML = output
   }
-document.addEventListener("DOMContentLoaded", showProjects)
+document.addEventListener("DOMContentLoaded", showProjects) */
 
   
